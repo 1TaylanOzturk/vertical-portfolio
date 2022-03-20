@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cinzel:wght@600&family=Lato&family=M+PLUS+1:wght@300&family=Quicksand:wght@300;400&display=swap");
+
+nav {
+  background-color: #000;
+}
+
+.navbar-brand {
+  font-family: "Cinzel", serif;
+  color: #f6fa07 !important;
+}
+
+.nav-link {
+  font-family: "Lato", sans-serif;
+  color: #f6fa07 !important;
+}
+
+.custom-navbar-toggler-icon {
+  color: #f6fa07 !important;
+}

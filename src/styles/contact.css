@@ -1,0 +1,42 @@
+.contact-card {
+  background-color: #000;
+  width: 90%;
+  max-width: 800px;
+  min-width: 340px;
+  padding: 20px;
+  margin-top: 5rem;
+  margin-bottom: 4rem;
+  border-radius: 3px;
+}
+
+.contact-card--header {
+  margin-bottom: 2rem;
+}
+
+.red-star {
+  color: red;
+}
+
+@media only screen and (max-width: 500px) {
+  .contact-card h2 {
+    font-size: 1.5rem;
+  }
+  .contact-card h6 {
+    font-size: 0.9rem;
+  }
+  .form-label {
+    font-size: 15px;
+  }
+  .form-control {
+    font-size: 13.5px;
+  }
+  .form-text {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .contact-card {
+    min-width: 250px;
+  }
+}

@@ -1,0 +1,30 @@
+.about--container {
+  width: 92%;
+  max-width: 1100px;
+  border-radius: 5px;
+  background-color: #000;
+  color: #f6fa07;
+  padding: 15px;
+}
+
+.about--section-summary {
+  margin-bottom: 2rem;
+  font-size: 22px;
+}
+
+.about--section-pictures div div {
+  border-bottom: solid #f6fa07 2.5px;
+  margin: 0 10px;
+}
+
+@media only screen and (max-width: 873px) {
+  .about--section-summary {
+    font-size: 17px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .about--section-summary {
+    font-size: 13px;
+  }
+}

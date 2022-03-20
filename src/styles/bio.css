@@ -1,0 +1,91 @@
+.bio--container-outer {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin: 6rem 0;
+}
+
+.bio--container {
+  border-radius: 5px;
+  margin: 0 auto;
+  background-color: #000;
+  max-width: 900px;
+  width: 90%;
+  padding: 20px;
+}
+
+.bio--section {
+  display: flex;
+  border-bottom: 1px solid rgba(192, 192, 192, 0.8);
+  padding-bottom: 1.5rem;
+}
+
+.bio--section:not(:first-child) {
+  padding-top: 1.5rem;
+}
+
+.bio--section-img {
+  display: inline-flex;
+  border-right: solid #f6fa07 1.7px;
+  padding-right: 10px;
+}
+
+.bio--section-img img {
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 80px;
+  height: 80px;
+  background-color: #f6fa07;
+  padding: 3px;
+  border-radius: 100%;
+}
+
+.bio--section-info {
+  padding-left: 10px;
+}
+
+.bio--section-link {
+  cursor: pointer;
+  color: #fc4242 !important;
+  text-decoration: none;
+}
+
+.bio--section-link:hover {
+  opacity: 0.8;
+}
+
+.translator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.translator button {
+  background-color: #000;
+  color: #f6fa07;
+  padding: 10px 15px 15px 15px;
+  border: none;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.translator button span {
+  text-transform: capitalize;
+}
+
+.translator button:hover {
+  background-color: #181818;
+}
+
+.translator button:focus {
+  border-left: #f6fa07 solid 2px;
+  border-right: #f6fa07 solid 2px;
+  border-bottom: #f6fa07 solid 2px;
+}
+
+@media only screen and (max-width: 500px) {
+  .bio--container {
+    font-size: 90%;
+  }
+}

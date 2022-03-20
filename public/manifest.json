@@ -1,0 +1,73 @@
+{
+  "name": "Vertical Portfolio",
+  "short_name": "Vertical",
+  "theme_color": "#000",
+  "background_color": "#000",
+  "display": "fullscreen",
+  "orientation": "portrait",
+  "scope": "/",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "icon16.jpg",
+      "type": "image/jpg",
+      "sizes": "16x16"
+    },
+    {
+      "src": "icon32.jpg",
+      "type": "image/jpg",
+      "sizes": "32x32"
+    },
+    {
+      "src": "icon64.jpg",
+      "type": "image/jpg",
+      "sizes": "64x64"
+    },
+    {
+      "src": "icon72.jpg",
+      "type": "image/jpg",
+      "sizes": "72x72"
+    },
+    {
+      "src": "icon96.jpg",
+      "type": "image/jpg",
+      "sizes": "96x96"
+    },
+    {
+      "src": "icon128.jpg",
+      "type": "image/jpg",
+      "sizes": "128x128"
+    },
+    {
+      "src": "icon144.jpg",
+      "type": "image/jpg",
+      "sizes": "144x144"
+    },
+    {
+      "src": "icon152.jpg",
+      "type": "image/jpg",
+      "sizes": "152x152"
+    },
+    {
+      "src": "icon192.jpg",
+      "type": "image/jpg",
+      "sizes": "192x192"
+    },
+    {
+      "src": "icon384.jpg",
+      "type": "image/jpg",
+      "sizes": "384x384"
+    },
+    {
+      "src": "icon512.jpg",
+      "type": "image/jpg",
+      "sizes": "512x512"
+    }
+  ],
+  "splash_pages": null
+}

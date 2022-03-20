@@ -1,0 +1,25 @@
+.podcast-card {
+  position: relative;
+  max-width: 45%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1rem;
+}
+.podcast-card:last-child {
+  margin-bottom: 3rem;
+}
+
+.podcast-card--title {
+  font-size: 140%;
+  font-weight: bold;
+}
+
+.podcast-card--text {
+  font-size: 110%;
+}
+
+@media only screen and (max-width: 1000px) {
+  .podcast-card {
+    max-width: 80%;
+  }
+}
