@@ -22,7 +22,7 @@ export default function DisplayPodcasts(props) {
       axios.get(API_URL + endpoint).then((res) => setData(res.data));
     } else {
       axios
-        .get(API_URL + `podcasts?category=${category}/`)
+        .get(API_URL + `podcasts?category=${category}`)
         .then((res) => setData(res.data));
     }
   }, [category, endpoint]);
